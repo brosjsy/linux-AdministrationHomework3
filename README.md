@@ -39,5 +39,29 @@ To create a new user , the permission must have been met Ie a root or sudoer and
 
 
 •	Once the user hulk is create then change the password for hulk and then login as hulk
+![image](https://github.com/user-attachments/assets/7907cb31-c9d8-4ab6-92d8-e27b7d395abe)
+
+![image](https://github.com/user-attachments/assets/5fb33ddb-fdca-4f8c-8691-5e649d0e6ade)
+
 •	Under hulk home directory create a file Skaar
+
+![image](https://github.com/user-attachments/assets/dcb0a4a7-c82f-4fc6-ae72-cef0a3cb8260)
+
 •	Change group ownership of Skaar from superheros to root
+
+![image](https://github.com/user-attachments/assets/32ef2d03-1025-4b0f-952c-2b6f33754991)
+
+•	Then create a new group continents
+
+![image](https://github.com/user-attachments/assets/787d11ec-4e45-4c11-beb9-6ff7dd7e6069)
+
+•	Create a new users namerica, samerica, asia, europe, australia, africa and antartica
+![image](https://github.com/user-attachments/assets/23aef430-1742-458a-9760-7add05aef61a)
+
+
+•	Make sure all these users groups is continents
+•	Change password for every user, then switch into each user one by one using su - username command and create one file in each user account (e.g. england file in europe, usa in namerica, japan in asia and so on)
+•	Also add user namerica to wheel group to allow it to run root commands as root and then test it
+•	Run last command and find out the number of users logged in.  (Do not count duplicate users)
+•	Run id command on africa and australia users to verify their user id
+
