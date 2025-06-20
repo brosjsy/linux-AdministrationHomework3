@@ -58,9 +58,21 @@ To create a new user , the permission must have been met Ie a root or sudoer and
 •	Create a new users namerica, samerica, asia, europe, australia, africa and antartica
 ![image](https://github.com/user-attachments/assets/23aef430-1742-458a-9760-7add05aef61a)
 
-
 •	Make sure all these users groups is continents
+
+![image](https://github.com/user-attachments/assets/4fad16a4-ad87-4b6d-88b4-fb4ce2141484)
+
 •	Change password for every user, then switch into each user one by one using su - username command and create one file in each user account (e.g. england file in europe, usa in namerica, japan in asia and so on)
+
+ ![image](https://github.com/user-attachments/assets/3e8b0496-af89-4aab-8099-2901c81c6f17)
+ 
+to switch into each user is done with su <username> and enter with the passwd and create the file with touch command 
+
+![image](https://github.com/user-attachments/assets/29d31d9a-8b3a-4f2e-ad0b-646635499363)![image](https://github.com/user-attachments/assets/3ea8bbee-6212-44c3-bb30-e6eaf2716d8d)
+
+
+
+
 •	Also add user namerica to wheel group to allow it to run root commands as root and then test it
 •	Run last command and find out the number of users logged in.  (Do not count duplicate users)
 •	Run id command on africa and australia users to verify their user id
