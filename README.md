@@ -71,9 +71,63 @@ to switch into each user is done with su <username> and enter with the passwd an
 ![image](https://github.com/user-attachments/assets/29d31d9a-8b3a-4f2e-ad0b-646635499363)![image](https://github.com/user-attachments/assets/3ea8bbee-6212-44c3-bb30-e6eaf2716d8d)
 
 
-
-
 •	Also add user namerica to wheel group to allow it to run root commands as root and then test it
+
+![image](https://github.com/user-attachments/assets/af4e4753-3322-4f4e-9b48-4df63cd70213)
+
 •	Run last command and find out the number of users logged in.  (Do not count duplicate users)
+
+
+![image](https://github.com/user-attachments/assets/264ec626-8d06-4d4a-97f7-b9c9f5b501d6) ![image](https://github.com/user-attachments/assets/7210b144-cf00-48ec-ae98-df108f1b9704)
+
+
 •	Run id command on africa and australia users to verify their user id
+
+![image](https://github.com/user-attachments/assets/e158ef3b-3e61-4ad1-a94b-ebc750c8d3f2)
+![image](https://github.com/user-attachments/assets/1281923f-4ae4-469b-a77c-672db380237a)
+
+•	Change the date of your system to Aug 22 1998 at 1pm and verify
+
+![image](https://github.com/user-attachments/assets/33fe364b-9f72-4f49-a232-e4196d5a8157)
+
+
+•	Check system uptime
+
+![image](https://github.com/user-attachments/assets/051e2563-029f-4345-a521-f41ab776ff38)
+
+•	List 1999 calendar 
+
+![image](https://github.com/user-attachments/assets/933ab557-ef27-4205-92ab-76b4fb3ec466)
+
+•	List everything with uname command and find out where the system architecture information is located
+
+![image](https://github.com/user-attachments/assets/429cf67d-99dd-41e7-8952-c977c0528431)
+
+•	Become yourself "your username" and run df -h command.  Output the df -h command to another file name it systemdiskinfo
+
+![image](https://github.com/user-attachments/assets/156f1e66-d5a0-4315-8d7f-f3d2427cea56)
+
+•	vi systemdiskinfo file and remove the first and second line and save the file
+
+![image](https://github.com/user-attachments/assets/63e7546b-55d4-4bab-a824-139f04711a2d)
+![image](https://github.com/user-attachments/assets/d1ba6c35-e445-4748-a9f2-e7554c6c710d)
+![image](https://github.com/user-attachments/assets/737fedb4-9e83-46a5-b143-950e7b952320)
+
+
+•	Run dmesg command and output to dm-file 
+![image](https://github.com/user-attachments/assets/454491ed-c401-44e8-be32-37eb6743589c)
+
+•	vi dm-file and remove the last 5-7 lines
+![image](https://github.com/user-attachments/assets/8a9253d2-d614-4ee2-b109-1f5b9d46cd5a)
+![image](https://github.com/user-attachments/assets/0ac40b4d-d7f9-4705-92cb-1fa99b1f2495)
+
+•	Add text in the end of file dm-file using vi.  Text = This is the end of the file.  Then save the file
+![image](https://github.com/user-attachments/assets/706b8381-908f-4ea8-a741-b845c3795bf9)![image](https://github.com/user-attachments/assets/27fbb6ac-1608-4108-973b-2e3ee71bf31e)
+
+
+•	Reboot the system using init command
+![image](https://github.com/user-attachments/assets/62863fdc-a2a5-44c7-8abe-adefbe4bf001)
+![image](https://github.com/user-attachments/assets/5b6a314c-ba1d-48d1-a049-522ae6df92e8)
+
+
 
