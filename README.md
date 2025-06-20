@@ -32,6 +32,12 @@ To create or add a group successfuly on linux can be done by adding the group cr
 
 
 •	Create a new user hulk and make sure its group should be superheros and its userid should be 2000
+To create a new user , the permission must have been met Ie a root or sudoer and the command to solve the task is 
+````useradd -u 2000 -m -G superheros hulk```` the command -u 2000 is setting the user to id=2000 and the -m is creating the home directory and the command -G is adding the user to group=superheros and the name of the user specifiied or to be created is = hulk
+
+![image](https://github.com/user-attachments/assets/7b9ca798-5a3c-40fa-9ff4-8a555b133b90)
+
+
 •	Once the user hulk is create then change the password for hulk and then login as hulk
 •	Under hulk home directory create a file Skaar
 •	Change group ownership of Skaar from superheros to root
