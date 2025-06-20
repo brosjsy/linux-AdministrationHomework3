@@ -14,7 +14,23 @@ Solutions : To move to the directory of superman should be done with the use of 
 ![image](https://github.com/user-attachments/assets/8896f95c-0c96-42b6-b51c-53c5dac07bee)
 
 •	Practice vi command by navigating the file content and remove some lines, edit or undo
+this can be done with use of insert and escape command together the wq to overwrite a line , q1  not to save a recent updated line etc
+
+![image](https://github.com/user-attachments/assets/6f565cb3-0d6f-43d2-95bd-2dfe04632d41)
+![image](https://github.com/user-attachments/assets/7b768eb6-08c9-4ea6-bc68-f72eeac53c04)
+![image](https://github.com/user-attachments/assets/176f15a2-bd9c-42c5-b7af-e9cd9ab1028d)
+![image](https://github.com/user-attachments/assets/696b1040-236d-4aa7-bed5-d968d1a0a517)
+
 •	Create a new group superheros (if you don't already have one)
+Creating group without having the right permission wont be possible especially if not on the sudoer file example is a screenshot of creating a group with the right permission 
+
+![image](https://github.com/user-attachments/assets/c8ef42d3-e47e-4bca-bdcb-f89c1a2a11c9)
+
+To create or add a group successfuly on linux can be done by adding the group creator to the sudoer file or member or wrap file or better create the group at the root level, in this homework , i logged in as aroot user using the command su and creating the group succesfully
+
+![image](https://github.com/user-attachments/assets/eba4f57e-6e5d-44eb-b99b-b8b06e43ceb0)
+
+
 •	Create a new user hulk and make sure its group should be superheros and its userid should be 2000
 •	Once the user hulk is create then change the password for hulk and then login as hulk
 •	Under hulk home directory create a file Skaar
